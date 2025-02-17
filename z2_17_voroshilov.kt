@@ -6,7 +6,7 @@ fun main(){
         when{
             (x>=y && y>=z || y>=x && x>=z) -> println(x+y)
             (x>=y && z>=y) -> println (x+z)
-            (y>=x && z>=x) -> println(y+z)
+            else -> println(y+z)
         }
     }
     catch(e:Exception){
